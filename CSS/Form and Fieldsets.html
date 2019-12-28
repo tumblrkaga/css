@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<title> Form and Fieldsets </title>
+<style>
+fieldset
+{
+	border: 2px solid blue;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding-left:20px;
+	background-color: lightyellow;
+	width: 50%;
+}
+
+Legend
+{
+	background-color: pink;
+	margin-left: -10px;
+	border: 2px solid black;
+	border-radius:5px;
+}
+
+input
+{
+	padding: 2px;
+	margin: 10px;
+}
+
+</style>
+</head>
+
+<body>
+<form>
+<p>
+<fieldset>
+	<legend> Login Details </legend>
+
+	<label for="User Name"> User Name: </label><br>
+	<input type="text" placeholder="User Name"> </input><br>
+	<label for="Email"> Email:</label><br>
+	<input type="text" placeholder="Email"> </input><br>
+	<label for="Password"> Password: </label><br>
+	<input type="password" placeholder="Password"> </input><br>
+	<label for="Confirm Password"> Confirm Password: </label><br>
+	<input type="password" placeholder="Password"> </input><br>
+</fieldset>
+
+<fieldset>
+	<legend> Contact Details </legend>
+	
+	<label for="Door No"> Door No: </label><br>
+	<input type="text" placeholder="Door No."> </input><br>
+	<label for="Street"> Street: </label><br>
+	<input type="text" placeholder="Street"> </input><br>
+	<label for="Area"> Area: </label><br>
+	<input type="text" placeholder="Area"> </input><br>
+	<label for="District"> District: </label><br>
+	<input type="text" placeholder="District"> </input><br>
+	<label for="State"> State: </label><br>
+	<input type="text" placeholder="State"> </input><br>
+	<label for="country"> Country: </label><br>
+	<input type="text" placeholder="Country"> </input><br>
+</fieldset>
+	
+<fieldset>
+	<legend> Education Details </legend>
+	
+	<label for="qualification">Qualification: </label><br>
+	<input type="text" placeholder="Qulafication"> </input><br>
+	<label for="college">College: </label><br>
+	<input type="text" placeholder="College"> </input><br>
+	<label for="year passed">Year Passed: </label><br>
+	<input type="text" placeholder="Year Passed"> </input><br><br>
+</fieldset>
+</p>
+<p>
+	<input type="submit" value="Send">
+</p>
+</form>	
+</body>
+</html>

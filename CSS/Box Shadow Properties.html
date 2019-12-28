@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title> Box Shawdow Properties and back ground image change </title>
+<style>
+body
+{
+		background: lightgrey url("Images/event.jpg") no-repeat center center/100px 100px fixed;
+}
+div
+{
+	border: 2px solid green;
+	width: 200px;
+	height: 100px;
+	margin: 20px auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	color: grey;
+}
+
+#top-left
+{
+	box-shadow: -5px -5px lightpink;
+}
+
+#bottom-right
+{
+	box-shadow: 5px 5px lightgreen;
+}
+
+#bottom-right-spread
+{
+	box-shadow: 5px 5px 10px 7px lightyellow;
+}
+
+#outer-spread
+{
+	box-shadow: 0 0 7px 7px blue;
+}
+
+#inset
+{
+	box-shadow: inset 0 0 8px 8px grey;
+	border-radius: 10px;
+}
+
+</style>
+</head>
+<body>
+<div id="top-left"> Top Left </div>
+<div id="bottom-right"> Bottom Right </div>
+<div id="bottom-right-spread"> Bottom Right Spread </div>
+<div id="outer-spread"> Outer Spread </div>
+<div id="inset"> Inset </div>
+</body>
+</html>
